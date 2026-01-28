@@ -1,0 +1,163 @@
+{
+    "data": {
+        "json": {
+            "version": 1,
+            "facturatype": 0,
+            "singlesidedtype": 0,
+            "incometype": 0,
+            "facturaid": "69711349742509274015a227",
+            "facturadoc": {
+                "facturano": "V-9",
+                "facturadate": "2026-01-21"
+            },
+            "contractdoc": {
+                "contractno": "157",
+                "contractdate": "2021-02-01"
+            },
+            "oldfacturadoc": null,
+            "facturaempowermentdoc": {
+                "agentfacturaid": "69711349742509274015a228",
+                "empowermentno": "",
+                "empowermentdateofissue": null,
+                "agentfio": "",
+                "agenttin": null,
+                "agentpinfl": ""
+            },
+            "itemreleaseddoc": {
+                "itemreleasedtin": null,
+                "itemreleasedpinfl": "",
+                "itemreleasedfio": ""
+            },
+            "foreigncompany": null,
+            "facturarentdoc": null,
+            "productlist": {
+                "facturaproductid": "69711349742509274015a229",
+                "tin": "305930137",
+                "hasvat": false,
+                "hasexcise": false,
+                "hascommittent": false,
+                "hasmedical": false,
+                "haslgota": true,
+                "hidereportcommittent": false,
+                "products": [
+                    {
+                        "summa": 800000,
+                        "totalsum": null,
+                        "deliverysum": 800000,
+                        "vatrate": 0,
+                        "vatsum": 0,
+                        "deliverysumwithvat": 800000,
+                        "withoutvat": true,
+                        "committentname": "",
+                        "committenttin": "",
+                        "committentvatregcode": "",
+                        "committentvatregstatus": null,
+                        "serial": null,
+                        "basesumma": 0,
+                        "profitrate": 0,
+                        "exciserate": 0,
+                        "excisesum": 0,
+                        "barcode": "",
+                        "marks": null,
+                        "warehouseid": null,
+                        "lgotaid": "102387",
+                        "lgotaname": "УП-5099 от 30.06.2017 г пункт 5 абзац 2 Освободить сроком до 1 января 2028 года резидентов Инновационного центра от уплаты всех видов налогов и обязательных отчислений в государсвенные целевые фонды, а текже единого социального платежа.",
+                        "lgotavatsum": 96000,
+                        "lgotatype": 1,
+                        "dispensetype": 0,
+                        "origin": 3,
+                        "exchangeinfo": null,
+                        "ordno": "1",
+                        "name": "Вознаграждение за установку виртуальной кассы REGOC:VCR (версия 1.1.0.0) (VCR230422-QAN)",
+                        "catalogcode": "10305011001000000",
+                        "catalogname": "Услуги технической помощи, поддержки и интеграции для работы программно-аппаратных комплексов",
+                        "measureid": null,
+                        "packagecode": "1545648",
+                        "packagename": "услуга (раз)",
+                        "count": 1
+                    }
+                ]
+            },
+            "expansion": {
+                "ordernumber": null
+            },
+            "hasmarking": false,
+            "hasrent": false,
+            "contractid": null,
+            "waybillid": null,
+            "waybilllocalids": null,
+            "facturainvestmentobjectdoc": {
+                "objectid": null,
+                "objectname": null
+            },
+            "sellertin": "305930137",
+            "buyertin": "306691996",
+            "lotid": null,
+            "seller": {
+                "name": "\"REGOS SOFTWARE\" MCHJ",
+                "account": "20208000800954672001",
+                "bankid": "01101",
+                "address": "г. Ташкент, Яккасарайский район, Бобур МСГ, ул. Абдулла Каххара, дом 56а, ",
+                "mobile": "+998555010030",
+                "workphone": "+998555010030",
+                "oked": "",
+                "districtid": "2604",
+                "director": "",
+                "accountant": "",
+                "vatregcode": "326040193420",
+                "branchcode": "",
+                "branchname": "",
+                "vatregstatus": "20"
+            },
+            "buyer": {
+                "name": "\"ROFEEV\" MCHJ",
+                "account": "20208000405118671001",
+                "bankid": "01061",
+                "address": "г. Самарканд, ул. Гагарина 123/22, ",
+                "mobile": "+998933532008",
+                "workphone": "+998933532008",
+                "oked": "",
+                "districtid": "1801",
+                "director": "",
+                "accountant": "",
+                "vatregcode": "318010232919",
+                "branchcode": "",
+                "branchname": "",
+                "vatregstatus": "20"
+            }
+        },
+        "document": {
+            "doc_id": "8E581260F86111F08225FA163EF6A82D",
+            "_id": "8E581260F86111F08225FA163EF6A82D",
+            "id": "8E581260F86111F08225FA163EF6A82D",
+            "name": "V-9",
+            "internal_status": null,
+            "updated": "2026-01-23 18:43:53",
+            "created": "2026-01-23 18:43:53",
+            "doctype": "002",
+            "has_attachments": null,
+            "factura_type": 0,
+            "reverse_calc": false,
+            "authorTaxId": null,
+            "signature": "[{\"taxId\":\"305930137\",\"firstName\":\"ANDREY\",\"lastName\":\"YAICHNIKOV\",\"fullName\":\"YAICHNIKOV ANDREY YAKOVLEVICH\",\"company\":\"REGOS SOFTWARE MCHJ\",\"email\":\"\",\"serial\":\"789b7a8e\",\"serialDec\":2023455374,\"signingTime\":\"2026.01.23 18:43:40\",\"pinfl\":null,\"operator\":\"faktura.uz\",\"ip\":\"87.192.226.150\"}]",
+            "sourceId": null,
+            "additional": [],
+            "extended_json": null,
+            "status_comment": "",
+            "status": 2,
+            "doc_status": 2,
+            "owner": 0,
+            "company_department_id": null,
+            "internal_comment": null,
+            "has_copy_restriction": false,
+            "has_cancel_restriction": null,
+            "factoringBlocks": [],
+            "scoring": null
+        },
+        "toSign": null,
+        "isValid": true,
+        "relatedDocuments": [],
+        "requestToByResponse": null,
+        "attachments": null
+    }
+}
