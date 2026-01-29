@@ -131,3 +131,103 @@ export interface CertificateInfo {
 export interface CertificatesResponse {
   certificates: CertificateInfo[];
 }
+
+export interface Partner {
+  id?: number;
+  name?: string;
+  fullname?: string;
+  tin?: string;
+  address?: string;
+  phone?: string;
+  [key: string]: any; // Allow other fields from REGOS API
+}
+
+export interface GetPartnersResponse {
+  ok: boolean;
+  result: {
+    result: Partner[];
+    next_offset?: number;
+    total: number;
+  };
+}
+
+export interface PartnerGroup {
+  id?: number;
+  name?: string;
+  parent_id?: number;
+  [key: string]: any; // Allow other fields from REGOS API
+}
+
+export interface GetPartnerGroupsResponse {
+  ok: boolean;
+  result: PartnerGroup[] | { result: PartnerGroup[] };
+}
+
+export interface Stock {
+  id?: number;
+  name?: string;
+  address?: string;
+  description?: string;
+  area?: number;
+  deleted_mark?: boolean;
+  firm?: any;
+  [key: string]: any;
+}
+
+export interface GetStocksResponse {
+  ok: boolean;
+  result: Stock[] | { result: Stock[] };
+  next_offset?: number;
+  total?: number;
+}
+
+export interface Currency {
+  id?: number;
+  code_num?: number;
+  code_chr?: string;
+  name?: string;
+  exchange_rate?: number;
+  is_base?: boolean;
+  deleted?: boolean;
+  [key: string]: any;
+}
+
+export interface GetCurrenciesResponse {
+  ok: boolean;
+  result: Currency[] | { result: Currency[] };
+  next_offset?: number;
+  total?: number;
+}
+
+export interface PriceType {
+  id?: number;
+  name?: string;
+  round_to?: number;
+  markup?: number;
+  max_discount?: number;
+  currency?: Currency;
+  currency_additional?: Currency;
+  [key: string]: any;
+}
+
+export interface GetPriceTypesResponse {
+  ok: boolean;
+  result: PriceType[] | { result: PriceType[] };
+  next_offset?: number;
+  total?: number;
+}
+
+export interface ItemGroup {
+  id?: number;
+  parent_id?: number;
+  name?: string;
+  path?: string;
+  child_count?: number;
+  last_update?: number;
+  [key: string]: any;
+}
+
+export interface GetItemGroupsResponse {
+  ok: boolean;
+  result: ItemGroup[] | { result: ItemGroup[] };
+}

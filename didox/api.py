@@ -120,8 +120,6 @@ async def didox_async_api_request(
 
 if __name__ == "__main__": 
     user_key = "e016e3ce-2a18-47f6-a8d7-236ce034bee6"
-
-    limit = 5
     result = asyncio.run(didox_async_api_request(
         endpoint="documents?partner=Regos", user_key=user_key))
     print(result)
